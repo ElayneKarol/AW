@@ -1,0 +1,107 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #12CBC4;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+
+}
+
+.title {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 40px;
+    color: #F25A70;
+    text-shadow: 4px 4px 0 #000;
+}
+
+.title.-second {
+    color: #fff;
+    text-shadow: none;
+    text-align: center;
+}
+
+nav {
+    text-align: right;
+}
+a{
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Fira Code", monospace;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a::before {
+    content: "";
+    background-color: #EA2027;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+span {
+    background-color: #EA2027;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #EA2027;
+    box-shadow: 5px 5px 0 #000;
+    padding: 18px 20px;
+    margin-right: 0;
+    transition: transform 100ms linear;
+}
+
+.button:hover {
+    transform: scale(1.08);
+}
+
+#box {
+    display: inline-block;
+    background-color: #3a4042;
+    width: 630px;
+    box-shadow: 10px 10px 0 #000;
+    text-align: center;
+    padding: 42px 44px;
+}
+
+#box h1 {
+    margin-bottom: 28px;
+}
+
+.banner {
+    box-sizing: border-box;
+    background-image: url(../assets/img/photo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+    border-bottom: 10px solid #000;
+    padding-top: 115px;
+    padding-left: 90px;
+}
+
+.banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+}
+
+.banner .box {
+    margin-bottom: 40px;
+}
+
+.banner .navigation {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section {
+    background-color: #F25A70;
+}
