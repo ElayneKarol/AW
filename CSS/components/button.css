@@ -3,7 +3,6 @@
     background-color: #EA2027;
     box-shadow: 5px 5px 0 #000;
     padding: 18px 20px;
-    margin-right: 0;
     transition: transform 100ms cubic-bezier(.45,.97,.68,2.48);
 }
 
