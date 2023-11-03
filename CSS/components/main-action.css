@@ -9,7 +9,7 @@
     margin-right: 30px;
 }
 
-.mainaction::before {
+.main-action::before {
     content: "";
     background-color: #EA2027;
     width: 10px;
